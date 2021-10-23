@@ -1,0 +1,27 @@
+{
+  "name": "typescript-static-code-generator",
+  "version": "0.0.1",
+  "description": "A tool to add code automatically to existing code during the typescript compile proccess ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strati1991/typescript-static-code-generator.git"
+  },
+  "keywords": [
+    "typescript",
+    "ts-transformer",
+    "transformer"
+  ],
+  "author": "Christoph Heidelmann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strati1991/typescript-static-code-generator/issues"
+  },
+  "homepage": "https://github.com/strati1991/typescript-static-code-generator#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
