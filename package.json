@@ -1,6 +1,6 @@
 {
   "name": "typescript-static-code-generator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool to add code automatically to existing code during the typescript compile proccess ",
   "main": "index.js",
   "scripts": {
