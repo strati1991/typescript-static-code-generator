@@ -1,11 +1,5 @@
-import {transformer} from './../transformer';
-import {ClassFilter, MethodFilter, ModifierFilter} from '../filters';
-import ts from 'typescript';
+import {transformerFactory} from '../transformer';
+import {constructorTransformer} from './constructor-transformer';
+import {methodTransformer} from './method-transformer';
 
-const testFilter = new ClassFilter().isParentOf(
-  new MethodFilter()
-    .and(new ModifierFilter(ts.SyntaxKind.PublicKeyword))
-    .and(new ModifierFilter(ts.SyntaxKind.AsyncKeyword))
-);
-
-export default transformer(testFilter);
+export default transformerFactory([constructorTransformer, methodTransformer]);

@@ -14,7 +14,7 @@
     "strictNullChecks": true,
     "plugins": [{"transform": "./src/test/transformer.ts", "type": "program"}]
   },
-  "include": ["./src/test"],
-  "exclude": ["node_modules"],
+  "include": ["./src/test", "src/template-renderer.ts"],
+  "exclude": ["node_modules", "src/templates"],
   "types": ["node", "mocha"]
 }
