@@ -12,7 +12,7 @@
     "rootDir": "./src",
     "allowJs": true,
     "strictNullChecks": true,
-    "plugins": [{"transform": "./src/transformer.ts", "type": "program"}]
+    "plugins": [{"transform": "./src/test/transformer.ts", "type": "program"}]
   },
   "include": ["./src/test"],
   "exclude": ["node_modules"],
